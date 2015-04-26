@@ -1,9 +1,97 @@
+<!-- 
+    *******************************
+            Download Dublado
+    *******************************
+    
+
+    Substituir os [numero]
+****************************** Links de Download *********************************  
+[01] - Link de Download do Filme
+[02] - Nome que será exibido ao passar o Mouse Sobre o Link de Download
+
+Ex.: Download NOME_DO_FIME em QUALIDADE_DO_FILME via SERVIDOR_DO_FILME
+
+[03] - Link de Download da Legenda
+[04] - Nome que será exibido ao passar o Mouse Sobre o Link de Download
+
+Ex.: Download Legenda NOME_DO_FIME em QUALIDADE_DO_FILME
+OBS: Se Não houver legenda a Adicionar Apagar toda Linha e colocar o Seguinte código no lugar: <li><p>-</p></li>
+
+********************************* Servidor de Download **************************************
+[05] - Servidor de Download
+OBS: Para cada servidor diferente colocamos uma cor padrão, veja a lista das cores a seguir:
+
+Nome Servidor : Cor
+Torrent : DarkGreen
+MagnetLink : DarkOrange 
+Mega : Red
+
+Para servidores que não foram listados visite o site a seguir e escolha uma cor
+Site: http://www.w3schools.com/html/html_colornames.asp
+
+Onde tem o Seguinte código: style="color: cor"
+Substituir "Cor" por nome da cor
+
+[06] - Formato do Áudio. Ex.: Legendado, Dublado, Dual Áudio.
+[07] - Qualidade. Ex.: Bluray 1080p, Bluray 720p, DBDRip 1080p, WEBDL 720p, etc. 
+[08] - Formato. Ex.: .MP4, .AVI, .MKV, etc.
+[09] - Tamanho. Ex.: 1.55GB, 2GB, 885MB. OBS: Colocar o GB ou MB no final
+==========================================================================================
+Para Adicionar um Outro Link de Download basta Duplicar o código abaixo e mudar as configurações.
+Você pode Adicionar a Quantidade de Link que quiser.
+Esse Sódigo Serve Tanto para filmes Dublado Quanto para Legendados.
+-->
+
+Código Para Editar:
+
 <ul class="body-download">
-    <li><a href="#" title="Download Velozes e Furiosos 7 em Bluray 1080p via torrent" target="_blank" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-save"></span> Download</a></li>
+    <li><a href="[01]" title="[02]" target="_blank" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-save"></span> Download</a></li>
+    <li><a href="[03]" title="[04]" target="_blank" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-save"></span> Download</a></li>
+    <li><p style="color: cor">[05]</p></li>
+    <li><p>[06]</p></li>
+    <li><p>[07]</p></li>
+    <li><p>[08]</p></li>
+    <li><p>[09]</p></li>
+</ul>
+
+<!-- ===================================================================================================== -->
+
+Exemplo de Código para Filme Dublado sem Legenda via Mega
+
+<ul class="body-download">
+    <li><a href="http://sh.st/st/4bf953af7072a5cd7c0eeee4257ba024/http://bit.ly/1Nkr1Ga" title="Download O Sétimo Filho Dublado em DVDRip 720p via Mega" target="_blank" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-save"></span> Download</a></li>
     <li><p>-</p></li>
-    <li><p style="color: orange">Magnet Link</p></li>
-    <li><p>Dual Áudio</p></li>
+    <li><p style="color: Red">Mega</p></li>
+    <li><p>Dublado</p></li>
+    <li><p>DVDRip 720p</p></li>
+    <li><p>.AVI</p></li>
+    <li><p>850MB</p></li>
+</ul>
+
+<!-- ===================================================================================================== -->
+
+Exemplo de Código para Filme Legendado via torrent
+
+<ul class="body-download">
+    <li><a href="http://sh.st/st/4bf953af7072a5cd7c0eeee4257ba024/http://bit.ly/1Nkr1Ga" title="Download O Sétimo Filho Legendado em Bluray 720p via torrent" target="_blank" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-save"></span> Download</a></li>
+    <li><a href="http://sh.st/st/4bf953af7072a5cd7c0eeee4257ba024/http://bit.ly/1CtRU75" title="Download Legenda O Sétimo Filho" target="_blank" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-save"></span> Download</a></li>
+    <li><p style="color: DarkGreen">Torrent</p></li>
+    <li><p>Legendado</p></li>
+    <li><p>Bluray 720p</p></li>
+    <li><p>.MKV</p></li>
+    <li><p>1.2GB</p></li>
+</ul>
+
+<!-- ===================================================================================================== -->
+
+Exemplo de Código para Filme Dublado sem legenda via Magnet Link
+
+<ul class="body-download">
+    <li><a href="magnet:?xt=urn:btih:F1A6A79B2090CEE3AEA90AF49F633C849911602B&dn=seventh+son+2014+1080p+hdrip+x264+aac+jyk&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" title="Download O Sétimo Filho Dublado em Blutay 1080p via MagnetLink" target="_blank" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-save"></span> Download</a></li>
+    <li><p>-</p></li>
+    <li><p style="color: DarkOrange">MagnetLink</p></li>
+    <li><p>Dublado</p></li>
     <li><p>Bluray 1080p</p></li>
-    <li><p>.MP4</p></li>
-    <li><p>1.55 GB</p></li>
+    <li><p>.MKV</p></li>
+    <li><p>2.5 GB</p></li>
 </ul>
